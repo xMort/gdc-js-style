@@ -3,7 +3,7 @@
 
     "plugins": ["react", "jest", "babel", "header", "no-only-tests"],
 
-    "extends": "airbnb",
+    "extends": ["airbnb", "prettier"],
 
     "env": {
         // I write for browser
