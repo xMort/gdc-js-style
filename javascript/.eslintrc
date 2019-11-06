@@ -3,7 +3,14 @@
 
     "plugins": ["react", "jest", "babel", "header", "no-only-tests"],
 
-    "extends": ["airbnb", "prettier"],
+    "extends": [
+        "airbnb",
+        "prettier",
+        "prettier/@typescript-eslint",
+        "prettier/babel",
+        "prettier/react",
+        "prettier/standard"
+    ],
 
     "env": {
         // I write for browser
